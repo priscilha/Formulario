@@ -1,12 +1,4 @@
-h1 {
-    font-family: 'Archivo', sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    color: white;
 
-
-}
 
 
 
@@ -27,10 +19,39 @@ body::before {
     background: #121214;
 }
 
+.page{
+    width: 736px;
+    margin: auto;
+
+}
+
+header{
+    width: 319px;
+    
+    margin-top: 74px;
+    
+}
+
+header h1 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+
+
+}
 header p {
     font-size: 16px;
     line-height: 26px;
 
     color: #42D3FF;
 
+}
+
+form{
+    background: #FAFAFC;
+    min-height: 300px;
+    margin-top: 38px;
+    border-radius: 8px 8px 0 0;
 }
