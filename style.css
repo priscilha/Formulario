@@ -224,7 +224,21 @@ footer{
 
 footer .button{
     height: 56px;
-    background-color: red;
+    
+    background-color: #04D361;
     border-radius: 8px;
     border: none;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    font-family: 'Archivo', sans-serif;
+    color: #FFFFFF;
+}
+
+footer .button:hover{
+    background-color: #069044;
+}
+
+input:invalid{
+    border: 1px solid red;
 }
